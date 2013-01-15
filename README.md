@@ -1,0 +1,1 @@
+A modul frissíti a <em>file</em> modul ikon elérését, a modul könyvtárában lévö mappára. Modul kikapcsolása és eltávolítása után a <em>file</em> modul ikon mappa elérése visszaáll az eredetire.

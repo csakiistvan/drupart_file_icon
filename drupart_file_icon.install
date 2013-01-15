@@ -1,0 +1,12 @@
+<?php 
+
+function drupart_file_icon_install() {
+  variable_set('file_icon_directory', drupal_get_path('module', 'drupart_file_icon') . '/icons');
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function drupart_file_icon_uninstall() {
+  variable_del('file_icon_directory');
+}
